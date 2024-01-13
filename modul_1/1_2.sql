@@ -93,6 +93,35 @@ BETWEEN
 AND 
     amount IN (2,3,5,7);
 
+-- step 11
+
+SELECT 
+    author, 
+    title 
+FROM 
+    book
+WHERE 
+    amount 
+BETWEEN 
+    2 AND 14
+ORDER BY 
+    author DESC, 
+    title;
+
+-- step 12
+
+SELECT 
+    title, 
+    author 
+FROM 
+    book 
+WHERE 
+    title LIKE "_% _%"
+AND 
+    (author LIKE "% С._." OR author LIKE "% _.С.")    
+ORDER BY 
+    title;
+
 -- step 13
 
 SELECT 
