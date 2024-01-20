@@ -123,7 +123,3 @@ WHERE
         FROM 
             book
     );
-
--- step 11
-
--- All queries in 1.5 work
