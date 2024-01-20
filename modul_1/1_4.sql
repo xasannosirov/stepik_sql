@@ -88,7 +88,3 @@ FROM
     book
 HAVING 
     Заказ > 0;
-
--- step 7
-
--- All queries in 1.4 work
